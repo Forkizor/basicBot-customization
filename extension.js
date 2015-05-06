@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "EDManiac987 sez";
+    var fork = "Yemasthui";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,32 +55,32 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "EDManiac987 sez",
+        botName: "basicBot",
         language: "english",
         startupCap: 1, // 1-200
-        startupVolume: 15, // 15-70
-        startupEmoji: true, // true or false
+        startupVolume: 0, // 0-100
+        startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
-        maximumDc: 120,
-        bouncerPlus: false,
+        maximumDc: 60,
+        bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: true,
+        voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 7,
+        maximumSongLength: 10,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 10,
-        lockskipReasons: [theme op sound nsfw
+        lockskipPosition: 3,
+        lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
             ["history", "This song is in the history. "],
